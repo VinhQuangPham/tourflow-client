@@ -1,5 +1,3 @@
-// import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-// import { faArrowRight, faArrowLeft } from "@fortawesome/free-solid-svg-icons";
 import { useEffect, useState } from "react";
 import "../styles/TourHeader.css";
 import { useStringContext } from "../ContextAPI/TourFlowProvider";

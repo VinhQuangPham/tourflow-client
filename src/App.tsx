@@ -1,7 +1,6 @@
-import { useState } from "react";
 import "./ContextAPI/TourFlowProvider";
 import MainPage from "./Components/MainPage";
-import { BrowserRouter as Router, Route, Routes, Link } from "react-router-dom";
+import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
 import TourDetail from "./Components/TourDetail";
 import { TourFlowProvider } from "./ContextAPI/TourFlowProvider";
 import CustomerProfile from "./Components/CustomerProfile";

@@ -1,7 +1,5 @@
 import { useEffect, useRef, useState } from "react";
 import "../styles/Destination.css";
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faArrowRight, faArrowLeft } from "@fortawesome/free-solid-svg-icons";
 import { useStringContext } from "../ContextAPI/TourFlowProvider";
 interface City {
   id: number;
