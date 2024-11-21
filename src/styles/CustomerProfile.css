@@ -1,0 +1,23 @@
+#log_out {
+  margin-top: 200px;
+  margin-left: auto;
+  margin-right: auto;
+  display: flex;
+  width: 100px;
+  height: 40px;
+  background-color: black;
+  color: white;
+  border-radius: 20px;
+  justify-content: center;
+  align-items: center;
+  font-family: "TitleBold";
+}
+#log_out:hover {
+  cursor: pointer;
+  background-color: aliceblue;
+  color: black;
+}
+#redirect_logout {
+  text-decoration: none; /* Remove underline */
+  color: inherit;
+}

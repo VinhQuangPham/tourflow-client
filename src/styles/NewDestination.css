@@ -1,0 +1,106 @@
+#destination_container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+#destination_header {
+  display: flex;
+  width: 100%;
+  align-items: center;
+  justify-content: center;
+  margin-top: 8%;
+  font-family: "TitleBold";
+}
+#country_container,
+#city_container {
+  display: flex;
+  width: 45%;
+  padding: 20px 0;
+  flex-direction: column;
+  margin: auto;
+  margin-top: 10%;
+  justify-content: center;
+  align-items: center;
+  font-family: "TilteBold";
+}
+#country_container,
+#city_container h4 {
+  align-self: center;
+  font-family: "TitleBold";
+}
+form {
+  background-color: #ffffff;
+  padding: 20px;
+
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  width: 100%;
+  max-width: 400px;
+  display: flex;
+}
+
+label {
+  font-size: 16px;
+  color: #333;
+  margin-bottom: 8px;
+  display: block;
+}
+
+input {
+  width: 100%;
+  height: fit-content;
+  padding: 10px;
+  font-size: 16px;
+  margin-bottom: 15px;
+  border: 2px solid #ddd;
+  border-radius: 4px;
+  outline: none;
+  transition: border-color 0.3s;
+}
+.inputField {
+  font-family: "TitleBold";
+}
+input:focus {
+  border-color: #b9dbff;
+}
+
+#submit_btn {
+  display: block;
+  margin-left: 10px;
+  background-color: #b3d7ff;
+  color: rgb(0, 0, 0);
+  padding: 10px 20px;
+  border: none;
+  font-family: "TitleBold";
+  font-weight: 900;
+  border-radius: 10px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+button:hover {
+  background-color: #0056b3;
+}
+.dropdown-container {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  align-items: center;
+  gap: 10px;
+  margin-top: 20px;
+  font-family: "TitleBold";
+  padding: 10px; /* Khoảng cách bên trong container */
+}
+
+.dropdown-container label {
+  margin-top: 12px;
+  font-size: 1.2rem;
+  color: #333;
+}
+
+.dropdown-container select {
+  padding: 8px;
+  font-size: 1rem;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
